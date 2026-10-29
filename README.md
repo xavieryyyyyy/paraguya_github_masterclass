@@ -4,6 +4,19 @@ A beginner developer learning Git and GitHub through this masterclass.
 
 ![Status](https://img.shields.io/badge/Status-Learning-blue)
 
+## Portfolio features
+
+- Two featured ESP32 projects with short explanations
+- Links to source code, wiring, and demonstrations
+- Instructions for viewing the portfolio on GitHub or in VS Code
+
+## Tools used
+
+- Markdown for this README
+- Git for commits, branches, and merging
+- GitHub for hosting and sharing
+- Shields.io for the status badge
+
 ## Featured projects
 
 ### ESP32 Master-Slave BLE
