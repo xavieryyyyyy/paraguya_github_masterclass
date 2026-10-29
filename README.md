@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Yestin Paraguya, student developer in embedded systems. ESP32 BLE control and FreeRTOS room monitoring. GitHub: xavieryyyyyy." width="100%">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg">
+    <img src="assets/banner.svg" alt="Yestin Paraguya, student developer learning IoT, embedded systems, and firmware. ESP32 BLE control and FreeRTOS room monitoring. GitHub: xavieryyyyyy." width="100%">
+  </picture>
 </p>
 
 <p align="center">
@@ -16,9 +19,9 @@
   <a href="#view-this-portfolio">Viewing guide</a>
 </p>
 
-I'm Yestin, a beginner developer learning Git and GitHub through this masterclass.
-These are two of my embedded systems projects, with links to the code, wiring,
-and demonstrations that explain how they work.
+I'm Yestin, a student learning IoT, embedded systems, and firmware.
+I build ESP32 projects and document the code, wiring, and testing.
+This portfolio also records my practice with Git and GitHub.
 
 <a id="selected-projects"></a>
 
@@ -96,24 +99,11 @@ viewing instructions, then merged it into `main` before publishing.
 
 ## <img src="assets/icons/book-open.svg" width="24" height="24" alt=""> View this portfolio
 
-Read this page on GitHub and follow the project links to explore the source code,
-wiring, and demonstrations. No installation is needed to read the portfolio.
+Open either project above for its code, wiring, and demonstrations.
+You can read this portfolio directly on GitHub without installing anything.
 
 In VS Code, open `README.md` and press **Ctrl+Shift+V** to preview it.
 
-<details>
-<summary>About the visuals and credits</summary>
-
-The AI-generated banner is decorative artwork with an Inter typography brief.
-The project graphics are conceptual diagrams, not wiring references or test evidence.
-GitHub controls the page theme and body font; the assets keep their monochrome styling.
-
-README layout and wording were developed with AI assistance. Project claims are
-limited to the evidence described in the linked repositories.
-Lucide icons are distributed under the [ISC license](assets/icons/LICENSE).
-
-</details>
-
 ---
 
-[**Yestin Paraguya**](https://github.com/xavieryyyyyy) &nbsp; / &nbsp; Git & GitHub masterclass
+[Yestin Paraguya](https://github.com/xavieryyyyyy) · Icons by [Lucide](https://lucide.dev/) ([ISC license](assets/icons/LICENSE)).
