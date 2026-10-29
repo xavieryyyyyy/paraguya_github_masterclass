@@ -17,8 +17,9 @@
 </p>
 
 I'm Yestin, a student learning IoT, embedded systems, and firmware.
-I build ESP32 projects and document the code, wiring, and testing.
-This portfolio also records my practice with Git and GitHub.
+I use ESP32 projects to practise working with sensors, wireless communication,
+and FreeRTOS. Here I share the code, wiring, and demonstrations, along with
+the Git workflow I used to build this portfolio.
 
 <a id="selected-projects"></a>
 
@@ -31,7 +32,10 @@ This portfolio also records my practice with Git and GitHub.
 **One pushbutton controls LEDs on two other boards over Bluetooth Low Energy.**
 
 My individual build includes firmware, wiring, and recorded hardware demonstrations.
-FreeRTOS workers handle the command paths to the two peripherals.
+
+- Hold the Master's button to send `ON`; release it to send `OFF`.
+- Separate FreeRTOS workers handle commands for each peripheral.
+- Hardware recordings and Serial Monitor logs show the individual build in action.
 
 `ESP32` &nbsp; `BLE / GATT` &nbsp; `FreeRTOS` &nbsp; `C++`
 
@@ -46,8 +50,12 @@ FreeRTOS workers handle the command paths to the two peripherals.
 
 **Sensor readings, an OLED display, and a temperature alarm, managed with FreeRTOS.**
 
-This project explores how separate tasks handle sensing, user input, display updates,
-and alarms. Its repository includes a Wokwi simulation demonstration.
+The project separates sensing, user input, display updates, and alarms into
+FreeRTOS tasks. Its demonstration runs in Wokwi.
+
+- Read temperature, humidity, light, and motion inputs.
+- View sensor pages on the OLED and change pages with a rotary encoder.
+- Trigger a buzzer when temperature goes outside the configured limits.
 
 `ESP32` &nbsp; `ESP-IDF` &nbsp; `FreeRTOS` &nbsp; `Wokwi`
 
@@ -62,9 +70,9 @@ and alarms. Its repository includes a Wokwi simulation demonstration.
 
 <img src="assets/git-workflow.svg" alt="Main branches into feature/profile for two improvements, then merges back before the features and tools update." width="100%">
 
-For this portfolio, I reviewed each diff, staged the changes, and wrote a commit
-message for each improvement. I used `feature/profile` to add the projects and
-viewing instructions, then merged it into `main` before publishing.
+I reviewed changes with `git diff`, selected them with `git add`, and saved each
+improvement with `git commit`. The project descriptions and viewing instructions
+were added on `feature/profile`, merged into `main`, and pushed to GitHub.
 
 | Commit | What changed |
 | :--- | :--- |
@@ -75,6 +83,12 @@ viewing instructions, then merged it into `main` before publishing.
 | `7919124` | Explained portfolio features and tools |
 
 [Explore the commit history](https://github.com/xavieryyyyyy/paraguya_github_masterclass/commits/main)
+
+## What I'm learning
+
+- How sensor readings move through firmware to a display or output
+- How BLE devices exchange commands and FreeRTOS tasks share work
+- How staging, commits, branches, and merges fit into a Git workflow
 
 ## Portfolio features
 
@@ -103,4 +117,4 @@ In VS Code, open `README.md` and press **Ctrl+Shift+V** to preview it.
 
 ---
 
-[Yestin Paraguya](https://github.com/xavieryyyyyy) · Icons by [Lucide](https://lucide.dev/) ([ISC license](assets/icons/LICENSE)).
+[Yestin Paraguya](https://github.com/xavieryyyyyy) / Icons by [Lucide](https://lucide.dev/) ([ISC license](assets/icons/LICENSE)).
