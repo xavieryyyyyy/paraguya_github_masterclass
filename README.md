@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg">
-    <img src="assets/banner.svg" alt="Yestin Paraguya, student developer learning IoT, embedded systems, and firmware. ESP32 BLE control and FreeRTOS room monitoring. GitHub: xavieryyyyyy." width="100%">
-  </picture>
+  <img src="assets/banner.png" alt="Yestin Paraguya. Student developer in embedded systems. ESP32 BLE control and FreeRTOS room monitoring. GitHub: xavieryyyyyy." width="100%">
 </p>
 
 <p align="center">
