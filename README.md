@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Yestin Paraguya. Student developer working with ESP32 and FreeRTOS. BLE control and room monitoring." width="100%">
+  <img src="assets/banner.png" alt="Yestin Paraguya, student developer in embedded systems. ESP32 BLE control and FreeRTOS room monitoring. GitHub: xavieryyyyyy." width="100%">
 </p>
 
 <p align="center">
