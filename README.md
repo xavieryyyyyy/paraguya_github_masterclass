@@ -2,6 +2,8 @@
 
 A beginner developer learning Git and GitHub through this masterclass.
 
+![Status](https://img.shields.io/badge/Status-Learning-blue)
+
 ## Featured projects
 
 ### ESP32 Master-Slave BLE
@@ -19,3 +21,11 @@ display, and a temperature alarm. The repository includes a Wokwi
 simulation demonstration.
 
 [Explore the room monitor](https://github.com/xavieryyyyyy/esp32-freertos-room-monitoring-system)
+
+## View this portfolio
+
+Read this page on GitHub and follow the project links to explore
+the source code, wiring, and demonstrations.
+
+In VS Code, open README.md and press Ctrl+Shift+V to preview it.
+No installation is needed to read this portfolio.
